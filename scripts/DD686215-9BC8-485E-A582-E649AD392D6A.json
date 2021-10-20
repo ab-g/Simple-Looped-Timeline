@@ -1,11 +1,11 @@
 {
   "@class": "TimeLineScript",
   "id": {
-    "uuid": "DD8352AD-855A-485A-840A-7FF59AF7BC24"
+    "uuid": "DD686215-9BC8-485E-A582-E649AD392D6A"
   },
   "name": "Animation",
   "enableOnAwake": false,
-  "loop": true,
+  "loop": false,
   "jumpToFirstFrameAtEnd": false,
   "speed": 1,
   "weight": 1,
@@ -19,25 +19,17 @@
       {
         "@class": "AnimationScript",
         "id": {
-          "uuid": "1E681781-B47D-4B4C-916A-C39C304D39EE"
+          "uuid": "379268A4-34E2-456A-B823-A8838116F03F"
         },
-        "name": "AnimationScript",
+        "name": "Inserted animations",
         "enableOnAwake": false,
         "OwnerLink": {
-          "@class": "BindingLink",
-          "targetId": {
-            "uuid": "D406BC1A-5E43-479A-BE35-D44B31BE3B53"
-          },
-          "targetRelativeAddress": {
-            "@class": "NodeRelativeAddressBase",
-            "index": 3,
-            "name": "Sphere"
-          }
+          "@class": "BindingLink"
         },
         "animation": {
-          "uuid": "F72E2981-6FA4-4BFB-9B2F-92D1BD0D9622"
+          "uuid": "4639C791-C0CF-472F-A95C-A4E56F800FCF"
         },
-        "AnimationType": "object3D",
+        "AnimationType": "timeline",
         "is_imported": false,
         "isEnabled": true
       }

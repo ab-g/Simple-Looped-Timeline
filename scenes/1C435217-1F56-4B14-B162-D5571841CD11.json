@@ -49,7 +49,8 @@
         "D8E1D3DE-2BB8-4152-AD73-D8CFD5761AB5",
         "A0DAFCA4-98B7-44FF-B61E-24DDEDB47BB9",
         "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2",
-        "D406BC1A-5E43-479A-BE35-D44B31BE3B53"
+        "D406BC1A-5E43-479A-BE35-D44B31BE3B53",
+        "70B99DE0-8514-4A9D-9AA6-88554F4386BE"
       ]
     },
     {
@@ -332,6 +333,53 @@
           "isBone": false
         }
       }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "70B99DE0-8514-4A9D-9AA6-88554F4386BE"
+        },
+        "name": "External Timeline",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "DD686215-9BC8-485E-A582-E649AD392D6A"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
     }
   ],
   "scriptSystem": {
@@ -371,6 +419,12 @@
         "@class": "TimeLineScript",
         "id": {
           "uuid": "DD8352AD-855A-485A-840A-7FF59AF7BC24"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "DD686215-9BC8-485E-A582-E649AD392D6A"
         }
       }
     ]

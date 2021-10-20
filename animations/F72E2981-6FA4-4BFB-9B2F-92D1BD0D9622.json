@@ -43,6 +43,28 @@
                   "@class": "FloatExpressionFormula",
                   "expression": "origin+4.5"
                 },
+                "time": 2500,
+                "point1": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "point2": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "order": "linear",
+                "transition": true
+              },
+              {
+                "@class": "FloatBezierKeyFrame",
+                "formula": {
+                  "@class": "FloatExpressionFormula",
+                  "expression": "origin-4.5"
+                },
                 "time": 5000,
                 "point1": {
                   "values": [
