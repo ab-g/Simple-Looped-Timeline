@@ -281,6 +281,56 @@
           "importedName": "",
           "isBone": false
         }
+      },
+      "children": [
+        "3ED41180-44CD-47B7-A22E-2E32604C0497"
+      ]
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "3ED41180-44CD-47B7-A22E-2E32604C0497"
+        },
+        "name": "Internal Timeline",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "DD8352AD-855A-485A-840A-7FF59AF7BC24"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
       }
     }
   ],
@@ -315,6 +365,12 @@
         "@class": "Script_PostFX",
         "id": {
           "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4A"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "DD8352AD-855A-485A-840A-7FF59AF7BC24"
         }
       }
     ]

@@ -1,4 +1,5 @@
 {
+    "1C435217-1F56-4B14-B162-D5571841CD11/ExpandedNodes/D406BC1A-5E43-479A-BE35-D44B31BE3B53": "Sphere",
     "Camera/Position/X": 4.319224834442139,
     "Camera/Position/Y": 2.9931468963623047,
     "Camera/Position/Z": 5.981563091278076,
@@ -7,6 +8,8 @@
     "Camera/Rotation/Y": 0.30193382501602173,
     "Camera/Rotation/Z": 0.05891338363289833,
     "Camera/Type": 0,
+    "DD8352AD-855A-485A-840A-7FF59AF7BC24/SelectedTimelineObject": "0 0 ",
+    "DD8352AD-855A-485A-840A-7FF59AF7BC24/UnfoldedTimelineNodes/1E681781-B47D-4B4C-916A-C39C304D39EE": "Sphere",
     "Editor/ValueDraggerStepSize": 10,
     "SnapTypePosiotion/SnapPreset1": 0.5,
     "SnapTypePosiotion/SnapPreset2": 1,
